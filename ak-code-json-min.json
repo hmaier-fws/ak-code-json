@@ -1,0 +1,34 @@
+{
+  "name": "<**REQUIRED** The name of the release.>",
+  "organization": "<OPTIONAL - Either YOUR PROGRAM NAME or U.S. Fish and Wildlife Service",
+  "description": "<**REQUIRED** A one or two sentence description of the release.>",
+  "version": "<OPTIONAL - The version for this release.>",
+  "status": "<OPTIONAL - The development status of the release, one of: Ideation | Development | Alpha | Beta | Release Candidate | Production | Archival>",
+  "permissions": {
+    "usageType": "openSource",
+    "licenses": [{
+      "name": "Public Domain (CC0 1.0)",
+      "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }]
+  },
+
+  "repositoryURL": "<**REQUIRED** The URL of the public release repository for open source repositories. This field is not required for repositories that are only available as government-wide reuse or are closed (pursuant to one of the exemptions).>",
+
+  "laborHours": 0,
+
+  "tags": [
+    "<**REQUIRED** keyword>",
+    "<OPTIONAL - additional keywords as needed>"
+  ],
+
+  "contact": {
+    "name": "<**REQUIRED** The email address for the point of contact for the release.>",
+    "email": "<**REQUIRED** The name of the point of contact for the release.>"
+  },
+
+  "date": {
+    "created": "OPTIONAL - The date the release was created, in YYYY-MM-DD or ISO 8601 format.",
+    "lastModified": "OPTIONAL - The date the release was modified, in YYYY-MM-DD or ISO 8601 format.",
+    "metadataLastUpdated": "OPTIONAL - The date the metadata of the release was last updated, in YYYY-MM-DD or ISO 8601 format."
+  }
+}
